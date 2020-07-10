@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Pad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="keys">
+        <div class="one">
+            <div data-key="51" class="key">
+                <kbd>3</kbd>
+                <span class="sound">cymbal-trash1</span>
+            </div>
+            <div data-key="52" class="key">
+                <kbd>4</kbd>
+                <span class="sound">cymbal-crash1</span>
+            </div>
+            <div data-key="53" class="key">
+                <kbd>5</kbd>
+                <span class="sound">cymbal-trash2</span>
+            </div>
+            <div data-key="54" class="key">
+                <kbd>6</kbd>
+                <span class="sound">cymbal-china</span>
+            </div>
+            <div data-key="55" class="key">
+                <kbd>7</kbd>
+                <span class="sound">cymbal-trash2</span>
+            </div>
+            <div data-key="56" class="key">
+                <kbd>8</kbd>
+                <span class="sound">cymbal-crash2</span>
+            </div>
+            <div data-key="57" class="key">
+                <kbd>9</kbd>
+                <span class="sound">cymbal-trash1</span>
+            </div>
+        </div>
+        <div class="two">
+            <div data-key="83" class="key">
+                <kbd>S</kbd>
+                <span class="sound">hihat-open</span>
+            </div>
+            <div data-key="68" class="key">
+                <kbd>D</kbd>
+                <span class="sound">hihat-close</span>
+            </div>
+            <div data-key="69" class="key">
+                <kbd>E</kbd>
+                <span class="sound">ride2</span>
+            </div>
+            <div data-key="82" class="key">
+                <kbd>R</kbd>
+                <span class="sound">ride1</span>
+            </div>
+            <div data-key="85" class="key">
+                <kbd>U</kbd>
+                <span class="sound">ride1</span>
+            </div>
+            <div data-key="73" class="key">
+                <kbd>I</kbd>
+                <span class="sound">ride2</span>
+            </div>
+            <div data-key="75" class="key">
+                <kbd>K</kbd>
+                <span class="sound">hihat-close</span>
+            </div>
+            <div data-key="76" class="key">
+                <kbd>L</kbd>
+                <span class="sound">hihat-open</span>
+            </div>
+        </div>
+        <div class="three">
+            <div data-key="71" class="key">
+                <kbd>G</kbd>
+                <span class="sound">tom1</span>
+            </div>
+            <div data-key="70" class="key">
+                <kbd>F</kbd>
+                <span class="sound">tom2</span>
+            </div>
+            <div data-key="84" class="key">
+                <kbd>T</kbd>
+                <span class="sound">tom3</span>
+            </div>
+            <div data-key="89" class="key">
+                <kbd>Y</kbd>
+                <span class="sound">tom3</span>
+            </div>
+            <div data-key="74" class="key">
+                <kbd>J</kbd>
+                <span class="sound">tom2</span>
+            </div>
+            <div data-key="72" class="key">
+                <kbd>H</kbd>
+                <span class="sound">tom1</span>
+            </div>
+        </div>
+        <div class="four">
+            <div data-key="67" class="key">
+                <kbd>C</kbd>
+                <span class="sound">snare1</span>
+            </div>
+            <div data-key="86" class="key">
+                <kbd>V</kbd>
+                <span class="sound">snare2</span>
+            </div>
+            <div data-key="66" class="key">
+                <kbd>B</kbd>
+                <span class="sound">tink</span>
+            </div>
+            <div data-key="78" class="key">
+                <kbd>N</kbd>
+                <span class="sound">snare2</span>
+            </div>
+            <div data-key="77" class="key">
+                <kbd>M</kbd>
+                <span class="sound">snare1</span>
+            </div>
+        </div>
+        <div class="five">
+            <div data-key="90" class="key">
+                <kbd>Z</kbd>
+                <span class="sound">kick1</span>
+            </div>
+            <div data-key="88" class="key">
+                <kbd>X</kbd>
+                <span class="sound">kick2</span>
+            </div>
+            <div data-key="32" class="key">
+                <kbd>space</kbd>
+                <span class="sound">boom</span>
+            </div>
+            <div data-key="188" class="key">
+                <kbd>,</kbd>
+                <span class="sound">kick2</span>
+            </div>
+            <div data-key="190" class="key">
+                <kbd>.</kbd>
+                <span class="sound">kick1</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <audio data-key="51" src="sounds/cymbal.trash01.wav"></audio>
+    <audio data-key="52" src="sounds/cymbal.crash01.wav"></audio>
+    <audio data-key="53" src="sounds/cymbal.trash02.wav"></audio>
+    <audio data-key="54" src="sounds/cymbal.china.wav"></audio>
+    <audio data-key="55" src="sounds/cymbal.trash02.wav"></audio>
+    <audio data-key="56" src="sounds/cymbal.crash02.wav"></audio>
+    <audio data-key="57" src="sounds/cymbal.trash01.wav"></audio>
+    <audio data-key="82" src="sounds/cymbal.ride01.wav"></audio>
+    <audio data-key="69" src="sounds/cymbal.ride02.wav"></audio>
+    <audio data-key="83" src="sounds/hat.open.wav"></audio>
+    <audio data-key="68" src="sounds/hat.close.wav"></audio>
+    <audio data-key="85" src="sounds/cymbal.ride01.wav"></audio>
+    <audio data-key="73" src="sounds/cymbal.ride02.wav"></audio>
+    <audio data-key="76" src="sounds/hat.open.wav"></audio>
+    <audio data-key="75" src="sounds/hat.close.wav"></audio>
+    <audio data-key="90" src="sounds/kick01.wav"></audio>
+    <audio data-key="88" src="sounds/kick02.wav"></audio>
+    <audio data-key="188" src="sounds/kick02.wav"></audio>
+    <audio data-key="190" src="sounds/kick01.wav"></audio>
+    <audio data-key="32" src="sounds/kick.boom.wav"></audio>
+    <audio data-key="67" src="sounds/snare01.wav"></audio>
+    <audio data-key="86" src="sounds/snare02.wav"></audio>
+    <audio data-key="66" src="sounds/percussion.tink.wav"></audio>
+    <audio data-key="78" src="sounds/snare02.wav"></audio>
+    <audio data-key="77" src="sounds/snare01.wav"></audio>
+    <audio data-key="71" src="sounds/tom01.wav"></audio>
+    <audio data-key="70" src="sounds/tom02.wav"></audio>
+    <audio data-key="84" src="sounds/tom03.wav"></audio>
+    <audio data-key="89" src="sounds/tom03.wav"></audio>
+    <audio data-key="74" src="sounds/tom02.wav"></audio>
+    <audio data-key="72" src="sounds/tom01.wav"></audio>
+    <script>
+        /** GOAL: When a user opens this page and presses a key that corresponds with
+         * one of our div elements, we should play the audio clip associated with
+         * the keypress, add a class to the specific element that matches with the keypress,
+         * and then remove that class in order to reset the element to it's original state.
+         */
+
+        (() => {
+            const playSound = (e) => {
+                const soundclip = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+                const keyelement = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+
+                if (!soundclip) return undefined; // Stop function from running if key pressed doesn't match up with our elements
+
+                keyelement.classList.add('playing');
+
+                // Ensures that the sound clip always plays from the beginning. Otherwise,
+                // if the 'a' key is pressed twice rapidly, the soundclip will only play through
+                // once.
+                soundclip.currentTime = 0;
+
+                soundclip.play(); // Play sound
+            }
+
+            const removeTransition = (e) => {
+                // skip if it's not a transform event
+                if (e.propertyName !== 'transform') return undefined;
+                e.target.classList.remove('playing');
+            }
+
+            // Find all elements in the document with a class 'key'
+            const keys = document.querySelectorAll('.key');
+
+            // Listen for any `keydown` events that occur on this browser window instance (this page)
+            // When a `keydown` event is observered, trigger the `playSound` function, passing in the
+            // `keydown` event as the argument (e)
+            window.addEventListener('keydown', playSound);
+
+            keys.forEach(key =>
+                key.addEventListener(
+                    'transitionend',
+                    (e) => removeTransition.call(key, e)
+                ));
+        })();
+    </script>
+
+</body>
+
+</html>
