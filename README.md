@@ -1,8 +1,3 @@
 # Neumorphism Drum Pad
 
-## Inspiration
-- [Wes Bos](https://github.com/wesbos)' course: [JavaScript30](https://javascript30.com/account)
-- [Neumorphism Generator](https://neumorphism.io/)
-
-## Contact
-[Gilang Adam](https://github.com/gilangadam/)
+You can see the completed page [here](https://gilangadam.github.io/neumorphism-drum-pad/).
